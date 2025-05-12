@@ -3,10 +3,10 @@ import '../css/ProductForm.css';
 import ProductForm from "./ProductForm";
 
 const Items = () => {
-  const [productData, setProductData] = useState([]); // Cambiar a un arreglo
+  const [productData, setProductData] = useState([]);
 
   const handleProductSubmit = (data) => {
-    setProductData((prevData) => [...prevData, data]); // Agregar el nuevo producto al arreglo
+    setProductData((prevData) => [...prevData, data]);
   };
 
   return (
@@ -21,7 +21,8 @@ const Items = () => {
               <p><strong>ID:</strong> {product.id}</p>
               <p><strong>Producto:</strong> {product.producto}</p>
               <p><strong>Descripción:</strong> {product.descripcion}</p>
-              <p><strong>Precio:</strong> ${product.precio}</p>
+              <p><strong>Precio:</strong> ${product.precio}</p> 
+              <p><strong>Stock:</strong> {product.stock}</p> 
               <hr />
             </div>
           ))}
