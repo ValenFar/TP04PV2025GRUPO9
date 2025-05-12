@@ -7,6 +7,7 @@ const ProductForm = ({ onSubmit }) => {
     descripcion: "",
     precio: "",
     id: "",
+    stock:"",
   });
 
   const handleSubmit = (e) =>{
@@ -23,6 +24,10 @@ const ProductForm = ({ onSubmit }) => {
 
   const handleDescriopcionInput = (e) =>{
     setData({...data, descripcion: e.target.value});
+  }
+
+    const handleStockInput = (e) =>{
+    setData({...data, stock: e.target.value});
   }
 
   const handlePrecioInput = (e) =>{
@@ -65,6 +70,13 @@ const ProductForm = ({ onSubmit }) => {
           id='precio'
           value={data.precio}
           onChange={handlePrecioInput}
+        />
+        <label htmlFor="stock">Stock: </label>
+        <input 
+          type="number"
+          id='stock'
+          value={data.stock}
+          onChange={handleStockInput}
         />
         <button type="submit">Enviar</button>
       </form>
