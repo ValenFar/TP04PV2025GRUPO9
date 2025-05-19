@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import '../css/ProductForm.css';
 import ProductForm from "./ProductForm";
+import SearchBar from "./SearchBar";
+
 
 const Items = () => {
   const [productData, setProductData] = useState([]);
@@ -12,6 +14,7 @@ const Items = () => {
   return (
     <div>
       <ProductForm onSubmit={handleProductSubmit} />
+      <SearchBar productData={productData} />
 
       {productData.length > 0 && (
         <div className="data">

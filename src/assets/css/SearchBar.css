@@ -1,0 +1,24 @@
+/* Puedes ajustar el selector según tu estructura */
+input[type="text"] {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    margin: 10px 0;
+    padding: 8px 12px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+    border-color: #007BFF;
+    outline: none;
+    background-color: #89ffc4;
+}
+
+.data {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
