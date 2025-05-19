@@ -1,0 +1,75 @@
+.product-form {
+  background-color: #676767;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 400px rgba(255, 255, 255, 0.1);
+  width: 400px; 
+  display: grid;
+  gap: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.data {
+  background-color: rgb(108, 108, 108);
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 0px 0px 400px rgb(94, 95, 95);
+  color: white;
+}
+
+.product-block {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; /* para que se ajuste en pantallas pequeñas */
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.data-row {
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+.data h2{
+  text-align: center;
+} 
+  .product-form h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+    .product-form label{
+    color:#ffffff;
+  }
+
+  .product-form input {
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .product-form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #3eae62;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+.product-form button:hover {
+  background-color: #297241;
+}
+
+  
+
+  
+
