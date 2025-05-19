@@ -8,7 +8,6 @@ const ProductForm = ({ onSubmit }) => {
     precio: "",
     id: "",
     stock:"",
-    show: true
   });
 
   const handleSubmit = (e) =>{
@@ -16,7 +15,7 @@ const ProductForm = ({ onSubmit }) => {
     onSubmit(data)
     console.log(data);
     console.log("el formulario se envio")
-    setData({ producto: "", descripcion: "", precio: "", id: "", stock: "", show: true });
+    setData({ producto: "", descripcion: "", precio: "", id: "", stock: "" });
   }
 
   const handleProductoInput = (e) =>{
