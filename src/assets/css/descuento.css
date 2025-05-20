@@ -1,0 +1,40 @@
+.button-cancelar {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #de0606;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button-cancelar:hover {
+    background-color: #b53838;
+}
+
+.button-aplicar {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #8f8989ac;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button-aplicar:hover {
+    background-color: #32ea53ac;
+}
+
+.input-descuentos {
+    width: 100%;
+    max-width: 150px;
+    margin: 10px 0;
+    padding: 8px 12px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
