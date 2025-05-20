@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import Items from './assets/components/Items';
 
 const App = () => {

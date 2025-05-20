@@ -23,7 +23,8 @@ export default function Descuento({ productData }) {
 
     return (
         <div>
-            <input
+            <div className="contenedor-descuentos">
+                <input
                 className="input-descuentos"
                 type="number"
                 placeholder="Descuento %"
@@ -31,8 +32,11 @@ export default function Descuento({ productData }) {
                 onChange={handleDescuentoChange}
                 min="1"
                 max="99"
-            />
-            <button className='button-aplicar' onClick={aplicarDescuento}>Aplicar</button>
+                
+                /> 
+                <button className='button-aplicar' onClick={aplicarDescuento}>Aplicar</button>
+            </div>
+
             {productosConDescuento.length > 0 && (
                 <div className="data">
                     <h2>Productos con descuento</h2>
