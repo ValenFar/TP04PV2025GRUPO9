@@ -1,11 +1,11 @@
-import './assets/css/App.css'
+import Items from './assets/components/Items';
 
-function App() {
-  return(
-    <div className='contenedor-main'>
-        <p>Inicializacion del Proyecto</p>
+const App = () => {
+  return (
+    <div>
+      <Items />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

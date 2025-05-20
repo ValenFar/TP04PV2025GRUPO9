@@ -1,0 +1,136 @@
+/* --- FORMULARIO DE PRODUCTOS --- */
+.container-product {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.product-form {
+  background-color: #575965;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 400px rgba(255, 255, 255, 0.1);
+  width: 400px;
+  display: grid;
+  gap: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product-form h1 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.product-form label {
+  color: #ffffff;
+}
+
+.product-form input {
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.product-form button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #3eae62;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.product-form button:hover {
+  background-color: #297241;
+}
+
+/* --- PRODUCTOS INGRESADOS --- */
+.data {
+  background-color: #222;
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  color: white;
+}
+
+.data h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-block {
+  width: 250px;
+  background-color: #615355;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.data-row {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 16px;
+  color: white;
+}
+
+.product-block input[type="text"],
+.product-block input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f3f3f3;
+  font-size: 15px;
+  color: #000;
+  box-sizing: border-box;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.button-group button {
+  padding: 8px 16px;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button-group button:nth-child(1) {
+  background-color: #3eae62;
+  color: white;
+}
+
+.button-group button:nth-child(1):hover {
+  background-color: #2c8a4e;
+}
+
+.button-group button:nth-child(2) {
+  background-color: #e94b4b;
+  color: white;
+}
+
+.button-group button:nth-child(2):hover {
+  background-color: #b43e3e;
+}
+
